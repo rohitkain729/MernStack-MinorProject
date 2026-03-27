@@ -1,0 +1,14 @@
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+   
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+h3{
+    background-color: red;
+}

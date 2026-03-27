@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Page</title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h3>Edit Your Chat</h3>
+
+   
+    <div>
+      <form action="/chats/<%=chat._id%>/update?_method=PUT" method="POST">
+        <span class="chatId"> Id : <%=chat._id%></span>
+        <div>
+          <!-- <input type="text" name="from" placeholder=" who are you ?" value=""  /> -->
+          <span>From:<%=chat.from%></span>
+        </div>
+        <br>
+        <div>
+          <textarea name="msg" cols="25" rows="5" placeholder="write your message.." ><%=chat.msg%></textarea>
+        </div>
+        <br>
+        <div>
+            <span>To:<%=chat.to%></span>
+          <!-- <input type="text" name="to" placeholder="add receiver" value="<%=chat.to%>" /> -->
+        </div>
+        <br>
+        <div>
+          <button type="submit">Update Message</button>
+        </div>
+        
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+
+h3 {
+    background-color: yellow;
+    color: black;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.chats{
+     /* margin-bottom: 20px; */
+     background-color: rgba(191, 162, 218, 0.39);
+     font-size: 18px;
+     /* border-bottom: 1px solid black; */
+     /* display: block; */
+     width: 300px;
+     padding: 20px;
+     /* height: 150px; */
+     margin-top: 50px; 
+     border-radius: 20%;
+     margin-right: 20px;
+    }
+    
+    .chats{
+        padding: 20px;
+}
+
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    /* padding-left: 200px; */
+}
+
+.msg{
+    padding: 30px;
+    background-color: rgba(255, 0, 0, 0.315);
+    color: white;
+    border-radius: 10%;
+}
+.chatbtn{
+    background-color: rgba(255, 0, 0, 0.534);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10%;
+    font-size: 15px;
+}
+.edbtn{
+    background-color: rgba(255, 0, 221, 0.534);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+    font-size: 17px;
+    width: 80px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btns{
+    /* margin-left: 35px; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.chatId{
+    margin:20px;
+}
